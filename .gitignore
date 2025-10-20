@@ -1,0 +1,3 @@
+echo ".idea/" >> .gitignore
+echo "logs/" >> .gitignore
+echo "output/" >> .gitignore
