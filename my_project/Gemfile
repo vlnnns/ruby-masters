@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem 'nokogiri'  # Для парсингу HTML/XML
+gem 'httparty'  # Для виконання HTTP-запитів
+
+# Для перевірки стилю коду
+gem 'rubocop', require: false
