@@ -95,3 +95,8 @@ I, [2025-11-18T18:28:10.608497 #11409]  INFO -- : Item initialized: Tipping the 
 I, [2025-11-18T18:28:10.608538 #11409]  INFO -- : Item added to cart: Tipping the Velvet
 I, [2025-11-18T18:28:10.608613 #11409]  INFO -- : Parsing finished. Total items: 20
 I, [2025-11-18T18:28:10.611703 #11409]  INFO -- : Saved to CSV: parsed_data.csv
+I, [2025-11-18T18:31:10.645644 #12208]  INFO -- : Logger initialized successfully.
+I, [2025-11-18T18:31:10.645944 #12208]  INFO -- : Attempting to connect to sqlite...
+I, [2025-11-18T18:31:10.646708 #12208]  INFO -- : Connected to SQLite at db/local_database.sqlite
+I, [2025-11-18T18:31:10.648975 #12208]  INFO -- : SQLite connection closed.
+I, [2025-11-18T18:31:10.649088 #12208]  INFO -- : Attempting to connect to mongodb...

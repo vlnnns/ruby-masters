@@ -6,36 +6,41 @@ configurator_loader.config('config/default_config.yaml')
 settings = configurator_loader.config_data
 MyProject::LoggerManager.init_logger(settings)
 
-puts "\n--- Step 3.4 Testing SimpleWebsiteParser ---\n"
+puts "\n--- Step 3.5 Testing DatabaseConnector ---\n"
 
-app_config = MyProject::Configurator.new
-app_config.configure(
-  run_website_parser: 1,
-  run_save_to_csv: 1,
-  run_save_to_json: 1
-)
+puts "1. Testing SQLite Connection..."
+db_connector = MyProject::DatabaseConnector.new(settings)
 
-if app_config.config[:run_website_parser] == 1
-  puts "Parser initialized..."
+db_connector.connect_to_database
 
-  cart = MyProject::Cart.new
+if db_connector.db
+  puts "[Success] Connected to SQLite object: #{db_connector.db.class}"
 
-  parser = MyProject::SimpleWebsiteParser.new(settings, cart)
-
-  puts "Starting scraping from: #{settings['web_scraping']['start_page']}"
-  puts "Please wait..."
-
-  parser.start_parse
-
-  puts "\n--- Parsing Complete ---"
-  puts "Total items collected: #{cart.items.size}"
-
-  cart.items.first(3).each { |i| puts i.info }
-
-  if app_config.config[:run_save_to_csv] == 1
-    cart.save_to_csv("parsed_data.csv")
-    puts "Saved to parsed_data.csv"
+  if db_connector.db.is_a?(SQLite3::Database)
+    db_connector.db.execute("INSERT INTO items (name, price, category) VALUES (?, ?, ?)", ["Test Item", 99.99, "Test Cat"])
+    puts "[Success] Test item inserted into SQLite table."
   end
 else
-  puts "Parsing disabled in configuration."
+  puts "[Error] Failed to connect to SQLite."
+end
+
+db_connector.close_connection
+
+puts "\n2. Testing MongoDB Configuration Switch..."
+
+mongo_settings = settings.dup
+mongo_settings['database_config']['database_type'] = 'mongodb'
+
+mongo_connector = MyProject::DatabaseConnector.new(mongo_settings)
+
+begin
+  puts "Attempting to connect to MongoDB (may fail if server not running)..."
+  mongo_connector.connect_to_database
+
+  if mongo_connector.db
+    puts "[Success] Connected to MongoDB!"
+    mongo_connector.close_connection
+  end
+rescue StandardError => e
+  puts "MongoDB test skipped/failed (expected if no local server): #{e.message}"
 end
