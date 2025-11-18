@@ -1,18 +1,21 @@
-require 'httparty'
-require 'nokogiri'
+require_relative 'app_config_loader'
 
-# 1. Отримуємо HTML сторінки
-url = "https://uk.wikipedia.org/wiki/" # (замініть на ваш сайт)
-response = HTTParty.get(url)
+configurator = AppConfigLoader.new
 
-if response.code == 200
-  puts "Сторінка успішно завантажена!"
+configurator.load_libs('lib')
 
-  doc = Nokogiri::HTML(response.body)
+configurator.config('config/default_config.yaml')
 
-  title = doc.css('h1').text
-  puts "Заголовок сторінки: #{title}"
+puts "\n--- Loaded Configuration ---"
+configurator.pretty_print_config_data
+puts "----------------------------\n"
 
-else
-  puts "Помилка при завантаженні сторінки: #{response.code}"
-end
+settings = configurator.config_data
+
+MyProject::LoggerManager.init_logger(settings)
+
+MyProject::LoggerManager.logger.info("Application started")
+MyProject::LoggerManager.log_processed_file("test_file.txt")
+MyProject::LoggerManager.log_error("Test error message")
+
+puts "Done! Check the 'logs' directory."

@@ -1,0 +1,5 @@
+# Logfile created on 2025-11-18 18:07:03 +0200 by logger.rb/v1.7.0
+I, [2025-11-18T18:07:03.698454 #8564]  INFO -- : Logger initialized successfully.
+I, [2025-11-18T18:07:03.698503 #8564]  INFO -- : Application started
+I, [2025-11-18T18:07:03.698532 #8564]  INFO -- : Processed file: test_file.txt
+E, [2025-11-18T18:07:03.698557 #8564] ERROR -- : Error: Test error message
