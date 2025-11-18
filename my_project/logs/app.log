@@ -100,3 +100,82 @@ I, [2025-11-18T18:31:10.645944 #12208]  INFO -- : Attempting to connect to sqlit
 I, [2025-11-18T18:31:10.646708 #12208]  INFO -- : Connected to SQLite at db/local_database.sqlite
 I, [2025-11-18T18:31:10.648975 #12208]  INFO -- : SQLite connection closed.
 I, [2025-11-18T18:31:10.649088 #12208]  INFO -- : Attempting to connect to mongodb...
+I, [2025-11-18T18:38:42.051345 #13428]  INFO -- : Logger initialized successfully.
+I, [2025-11-18T18:38:42.051483 #13428]  INFO -- : Engine started.
+I, [2025-11-18T18:38:42.051532 #13428]  INFO -- : Cart initialized
+I, [2025-11-18T18:38:42.051570 #13428]  INFO -- : Attempting to connect to sqlite...
+I, [2025-11-18T18:38:42.053839 #13428]  INFO -- : Connected to SQLite at db/local_database.sqlite
+I, [2025-11-18T18:38:42.058942 #13428]  INFO -- : Executing: run_website_parser
+I, [2025-11-18T18:38:42.063295 #13428]  INFO -- : Start parsing: http://books.toscrape.com/catalogue/category/books_1/index.html
+E, [2025-11-18T18:38:44.832270 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg - 404 Not Found
+I, [2025-11-18T18:38:44.832612 #13428]  INFO -- : Item initialized: A Light in the ...
+I, [2025-11-18T18:38:44.832704 #13428]  INFO -- : Item added to cart: A Light in the ...
+E, [2025-11-18T18:38:45.053179 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.053255 #13428]  INFO -- : Item initialized: Olio
+I, [2025-11-18T18:38:45.053392 #13428]  INFO -- : Item added to cart: Olio
+E, [2025-11-18T18:38:45.264192 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.264280 #13428]  INFO -- : Item initialized: Unknown Product
+I, [2025-11-18T18:38:45.264330 #13428]  INFO -- : Item added to cart: Unknown Product
+E, [2025-11-18T18:38:45.382375 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.382435 #13428]  INFO -- : Item initialized: The Boys in the ...
+I, [2025-11-18T18:38:45.382466 #13428]  INFO -- : Item added to cart: The Boys in the ...
+E, [2025-11-18T18:38:45.415122 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.415180 #13428]  INFO -- : Item initialized: Set Me Free
+I, [2025-11-18T18:38:45.417317 #13428]  INFO -- : Item added to cart: Set Me Free
+E, [2025-11-18T18:38:45.417595 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.417641 #13428]  INFO -- : Item initialized: Scott Pilgrim's Precious Little ...
+I, [2025-11-18T18:38:45.417790 #13428]  INFO -- : Item added to cart: Scott Pilgrim's Precious Little ...
+E, [2025-11-18T18:38:45.420090 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.420137 #13428]  INFO -- : Item initialized: Our Band Could Be ...
+I, [2025-11-18T18:38:45.420165 #13428]  INFO -- : Item added to cart: Our Band Could Be ...
+E, [2025-11-18T18:38:45.471759 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.471813 #13428]  INFO -- : Item initialized: Sapiens: A Brief History ...
+I, [2025-11-18T18:38:45.471836 #13428]  INFO -- : Item added to cart: Sapiens: A Brief History ...
+E, [2025-11-18T18:38:45.544136 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.544188 #13428]  INFO -- : Item initialized: Libertarianism for Beginners
+I, [2025-11-18T18:38:45.544233 #13428]  INFO -- : Item added to cart: Libertarianism for Beginners
+E, [2025-11-18T18:38:45.546050 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.546088 #13428]  INFO -- : Item initialized: The Requiem Red
+I, [2025-11-18T18:38:45.546110 #13428]  INFO -- : Item added to cart: The Requiem Red
+E, [2025-11-18T18:38:45.560354 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.560404 #13428]  INFO -- : Item initialized: Tipping the Velvet
+I, [2025-11-18T18:38:45.560426 #13428]  INFO -- : Item added to cart: Tipping the Velvet
+E, [2025-11-18T18:38:45.570213 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.570251 #13428]  INFO -- : Item initialized: The Dirty Little Secrets ...
+I, [2025-11-18T18:38:45.570365 #13428]  INFO -- : Item added to cart: The Dirty Little Secrets ...
+E, [2025-11-18T18:38:45.610182 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.610239 #13428]  INFO -- : Item initialized: The Coming Woman: A ...
+I, [2025-11-18T18:38:45.610262 #13428]  INFO -- : Item added to cart: The Coming Woman: A ...
+E, [2025-11-18T18:38:45.673804 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.673860 #13428]  INFO -- : Item initialized: Shakespeare's Sonnets
+I, [2025-11-18T18:38:45.673883 #13428]  INFO -- : Item added to cart: Shakespeare's Sonnets
+E, [2025-11-18T18:38:45.683982 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.684019 #13428]  INFO -- : Item initialized: The Black Maria
+I, [2025-11-18T18:38:45.684040 #13428]  INFO -- : Item added to cart: The Black Maria
+E, [2025-11-18T18:38:45.700609 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.700649 #13428]  INFO -- : Item initialized: Sharp Objects
+I, [2025-11-18T18:38:45.700671 #13428]  INFO -- : Item added to cart: Sharp Objects
+E, [2025-11-18T18:38:45.712379 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.712417 #13428]  INFO -- : Item initialized: Starving Hearts (Triangular Trade ...
+I, [2025-11-18T18:38:45.712441 #13428]  INFO -- : Item added to cart: Starving Hearts (Triangular Trade ...
+E, [2025-11-18T18:38:45.714873 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.714908 #13428]  INFO -- : Item initialized: Soumission
+I, [2025-11-18T18:38:45.714931 #13428]  INFO -- : Item added to cart: Soumission
+E, [2025-11-18T18:38:45.836697 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.836760 #13428]  INFO -- : Item initialized: Mesaerion: The Best Science ...
+I, [2025-11-18T18:38:45.836789 #13428]  INFO -- : Item added to cart: Mesaerion: The Best Science ...
+E, [2025-11-18T18:38:45.847691 #13428] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg - 404 Not Found
+I, [2025-11-18T18:38:45.847728 #13428]  INFO -- : Item initialized: Rip it Up and ...
+I, [2025-11-18T18:38:45.847750 #13428]  INFO -- : Item added to cart: Rip it Up and ...
+I, [2025-11-18T18:38:45.847793 #13428]  INFO -- : Parsing finished. Total items: 20
+I, [2025-11-18T18:38:45.847817 #13428]  INFO -- : Executing: run_save_to_csv
+I, [2025-11-18T18:38:45.848364 #13428]  INFO -- : Saved to CSV: result_data.csv
+I, [2025-11-18T18:38:45.848392 #13428]  INFO -- : Executing: run_save_to_json
+I, [2025-11-18T18:38:45.848723 #13428]  INFO -- : Saved to JSON: result_data.json
+I, [2025-11-18T18:38:45.848753 #13428]  INFO -- : Executing: run_save_to_yaml
+I, [2025-11-18T18:38:45.854377 #13428]  INFO -- : Saved to YAML in directory: result_yaml_dump
+I, [2025-11-18T18:38:45.854408 #13428]  INFO -- : Executing: run_save_to_sqlite
+I, [2025-11-18T18:38:45.871033 #13428]  INFO -- : Saved 20 items to SQLite.
+I, [2025-11-18T18:38:45.872977 #13428]  INFO -- : Files archived to data_archive.zip
+I, [2025-11-18T18:38:45.874592 #13428]  INFO -- : SQLite connection closed.
+I, [2025-11-18T18:38:45.874628 #13428]  INFO -- : Engine finished.
