@@ -23,3 +23,5 @@ I, [2025-11-18T18:17:15.594478 #10017]  INFO -- : Saved to TXT: test_cart.txt
 I, [2025-11-18T18:17:15.594700 #10017]  INFO -- : Saved to JSON: test_cart.json
 I, [2025-11-18T18:17:15.595133 #10017]  INFO -- : Saved to CSV: test_cart.csv
 I, [2025-11-18T18:17:15.597109 #10017]  INFO -- : Saved to YAML in directory: test_cart_yaml
+I, [2025-11-18T18:20:22.298857 #10530]  INFO -- : Logger initialized successfully.
+W, [2025-11-18T18:20:22.299292 #10530]  WARN -- : Configurator: Invalid key 'run_unknown_feature' ignored.
