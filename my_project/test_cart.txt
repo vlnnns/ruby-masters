@@ -1,0 +1,5 @@
+Item: Sleek Linen Plate | Price: 445.16 | Cat: Toys
+Item: Awesome Leather Shoes | Price: 148.7 | Cat: Tools, Beauty & Grocery
+Item: Mediocre Plastic Clock | Price: 212.52 | Cat: Home
+Item: Synergistic Linen Bag | Price: 345.44 | Cat: Books, Games & Health
+Item: Aerodynamic Aluminum Chair | Price: 301.89 | Cat: Jewelry

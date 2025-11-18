@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Sleek Linen Plate",
+    "price": 445.16,
+    "description": "Architecto voluptatem inventore ratione.",
+    "category": "Toys",
+    "image_path": "media/path/to/commodi.jpg"
+  },
+  {
+    "name": "Awesome Leather Shoes",
+    "price": 148.7,
+    "description": "Optio et adipisci quia.",
+    "category": "Tools, Beauty & Grocery",
+    "image_path": "media/path/to/odit.jpg"
+  },
+  {
+    "name": "Mediocre Plastic Clock",
+    "price": 212.52,
+    "description": "Ut modi omnis rem.",
+    "category": "Home",
+    "image_path": "media/path/to/ea.jpg"
+  },
+  {
+    "name": "Synergistic Linen Bag",
+    "price": 345.44,
+    "description": "Inventore voluptatem recusandae non.",
+    "category": "Books, Games & Health",
+    "image_path": "media/path/to/occaecati.jpg"
+  },
+  {
+    "name": "Aerodynamic Aluminum Chair",
+    "price": 301.89,
+    "description": "Voluptate fugiat velit dolores.",
+    "category": "Jewelry",
+    "image_path": "media/path/to/ea.jpg"
+  }
+]

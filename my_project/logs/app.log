@@ -7,3 +7,19 @@ I, [2025-11-18T18:11:38.946916 #9312]  INFO -- : Logger initialized successfully
 I, [2025-11-18T18:11:38.947464 #9312]  INFO -- : Item initialized: Laptop
 I, [2025-11-18T18:11:38.947541 #9312]  INFO -- : Item initialized: Mouse
 I, [2025-11-18T18:11:39.725150 #9312]  INFO -- : Item initialized: Lightweight Granite Table
+I, [2025-11-18T18:17:14.746217 #10017]  INFO -- : Logger initialized successfully.
+I, [2025-11-18T18:17:14.746312 #10017]  INFO -- : Cart initialized
+I, [2025-11-18T18:17:15.593048 #10017]  INFO -- : Item initialized: Sleek Linen Plate
+I, [2025-11-18T18:17:15.593115 #10017]  INFO -- : Item added to cart: Sleek Linen Plate
+I, [2025-11-18T18:17:15.593363 #10017]  INFO -- : Item initialized: Awesome Leather Shoes
+I, [2025-11-18T18:17:15.593393 #10017]  INFO -- : Item added to cart: Awesome Leather Shoes
+I, [2025-11-18T18:17:15.593606 #10017]  INFO -- : Item initialized: Mediocre Plastic Clock
+I, [2025-11-18T18:17:15.593633 #10017]  INFO -- : Item added to cart: Mediocre Plastic Clock
+I, [2025-11-18T18:17:15.593870 #10017]  INFO -- : Item initialized: Synergistic Linen Bag
+I, [2025-11-18T18:17:15.593899 #10017]  INFO -- : Item added to cart: Synergistic Linen Bag
+I, [2025-11-18T18:17:15.594113 #10017]  INFO -- : Item initialized: Aerodynamic Aluminum Chair
+I, [2025-11-18T18:17:15.594139 #10017]  INFO -- : Item added to cart: Aerodynamic Aluminum Chair
+I, [2025-11-18T18:17:15.594478 #10017]  INFO -- : Saved to TXT: test_cart.txt
+I, [2025-11-18T18:17:15.594700 #10017]  INFO -- : Saved to JSON: test_cart.json
+I, [2025-11-18T18:17:15.595133 #10017]  INFO -- : Saved to CSV: test_cart.csv
+I, [2025-11-18T18:17:15.597109 #10017]  INFO -- : Saved to YAML in directory: test_cart_yaml
