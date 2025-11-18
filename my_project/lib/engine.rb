@@ -17,8 +17,12 @@ module MyProject
       @logger = nil
     end
 
-    def run
+    def run(external_config = {})
       load_config
+
+      if !external_config.empty? && @config['configurator']
+        @config['configurator'].merge!(external_config)
+      end
 
       initialize_logging
 

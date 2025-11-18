@@ -1,0 +1,7 @@
+desc "Run the Parser Application"
+task :run do
+  puts "--- Rake: Launching Application ---"
+  ruby "lib/main.rb"
+end
+
+task default: :run
