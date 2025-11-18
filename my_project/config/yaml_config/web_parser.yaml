@@ -1,6 +1,7 @@
 web_scraping:
-  start_page: https://life.com.ua
-  product_name_selector: ".product-title"
-  product_price_selector: ".product-price__item"
-  product_description_selector: ".product-description"
-  product_image_selector: ".gallery__link"
+  start_page: http://books.toscrape.com/catalogue/category/books_1/index.html
+
+  product_name_selector: "h3 a"
+  product_price_selector: "p.price_color"
+  product_description_selector: "p"
+  product_image_selector: "img"

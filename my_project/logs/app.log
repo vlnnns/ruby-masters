@@ -25,3 +25,73 @@ I, [2025-11-18T18:17:15.595133 #10017]  INFO -- : Saved to CSV: test_cart.csv
 I, [2025-11-18T18:17:15.597109 #10017]  INFO -- : Saved to YAML in directory: test_cart_yaml
 I, [2025-11-18T18:20:22.298857 #10530]  INFO -- : Logger initialized successfully.
 W, [2025-11-18T18:20:22.299292 #10530]  WARN -- : Configurator: Invalid key 'run_unknown_feature' ignored.
+I, [2025-11-18T18:25:28.391953 #11258]  INFO -- : Logger initialized successfully.
+I, [2025-11-18T18:25:28.392378 #11258]  INFO -- : Cart initialized
+I, [2025-11-18T18:25:28.395002 #11258]  INFO -- : Start parsing: https://life.com.ua
+E, [2025-11-18T18:25:53.057961 #11258] ERROR -- : Error: URL Check Error: Operation timed out - SSL_connect
+I, [2025-11-18T18:25:53.059084 #11258]  INFO -- : Saved to CSV: parsed_data.csv
+I, [2025-11-18T18:28:06.731013 #11409]  INFO -- : Logger initialized successfully.
+I, [2025-11-18T18:28:06.731340 #11409]  INFO -- : Cart initialized
+I, [2025-11-18T18:28:06.733382 #11409]  INFO -- : Start parsing: http://books.toscrape.com/catalogue/category/books_1/index.html
+E, [2025-11-18T18:28:09.501243 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg - 404 Not Found
+I, [2025-11-18T18:28:09.501353 #11409]  INFO -- : Item initialized: Unknown Product
+I, [2025-11-18T18:28:09.501408 #11409]  INFO -- : Item added to cart: Unknown Product
+E, [2025-11-18T18:28:09.687164 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg - 404 Not Found
+I, [2025-11-18T18:28:09.687245 #11409]  INFO -- : Item initialized: A Light in the ...
+I, [2025-11-18T18:28:09.687277 #11409]  INFO -- : Item added to cart: A Light in the ...
+E, [2025-11-18T18:28:09.849279 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg - 404 Not Found
+I, [2025-11-18T18:28:09.849378 #11409]  INFO -- : Item initialized: The Coming Woman: A ...
+I, [2025-11-18T18:28:09.849423 #11409]  INFO -- : Item added to cart: The Coming Woman: A ...
+E, [2025-11-18T18:28:09.874854 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg - 404 Not Found
+I, [2025-11-18T18:28:09.874973 #11409]  INFO -- : Item initialized: Mesaerion: The Best Science ...
+I, [2025-11-18T18:28:09.875018 #11409]  INFO -- : Item added to cart: Mesaerion: The Best Science ...
+E, [2025-11-18T18:28:09.879539 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg - 404 Not Found
+I, [2025-11-18T18:28:09.879616 #11409]  INFO -- : Item initialized: Soumission
+I, [2025-11-18T18:28:09.879663 #11409]  INFO -- : Item added to cart: Soumission
+E, [2025-11-18T18:28:09.916076 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg - 404 Not Found
+I, [2025-11-18T18:28:09.916360 #11409]  INFO -- : Item initialized: Sharp Objects
+I, [2025-11-18T18:28:09.916450 #11409]  INFO -- : Item added to cart: Sharp Objects
+E, [2025-11-18T18:28:10.002762 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.002877 #11409]  INFO -- : Item initialized: The Boys in the ...
+I, [2025-11-18T18:28:10.002928 #11409]  INFO -- : Item added to cart: The Boys in the ...
+E, [2025-11-18T18:28:10.069642 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.069751 #11409]  INFO -- : Item initialized: Olio
+I, [2025-11-18T18:28:10.069800 #11409]  INFO -- : Item added to cart: Olio
+E, [2025-11-18T18:28:10.073314 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.073391 #11409]  INFO -- : Item initialized: Libertarianism for Beginners
+I, [2025-11-18T18:28:10.073441 #11409]  INFO -- : Item added to cart: Libertarianism for Beginners
+E, [2025-11-18T18:28:10.175330 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.175401 #11409]  INFO -- : Item initialized: Set Me Free
+I, [2025-11-18T18:28:10.175431 #11409]  INFO -- : Item added to cart: Set Me Free
+E, [2025-11-18T18:28:10.210498 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.210760 #11409]  INFO -- : Item initialized: Starving Hearts (Triangular Trade ...
+I, [2025-11-18T18:28:10.210822 #11409]  INFO -- : Item added to cart: Starving Hearts (Triangular Trade ...
+E, [2025-11-18T18:28:10.224970 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.225040 #11409]  INFO -- : Item initialized: Shakespeare's Sonnets
+I, [2025-11-18T18:28:10.225073 #11409]  INFO -- : Item added to cart: Shakespeare's Sonnets
+E, [2025-11-18T18:28:10.254019 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.254127 #11409]  INFO -- : Item initialized: Scott Pilgrim's Precious Little ...
+I, [2025-11-18T18:28:10.254204 #11409]  INFO -- : Item added to cart: Scott Pilgrim's Precious Little ...
+E, [2025-11-18T18:28:10.324804 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.324895 #11409]  INFO -- : Item initialized: Sapiens: A Brief History ...
+I, [2025-11-18T18:28:10.324937 #11409]  INFO -- : Item added to cart: Sapiens: A Brief History ...
+E, [2025-11-18T18:28:10.439098 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.440557 #11409]  INFO -- : Item initialized: Our Band Could Be ...
+I, [2025-11-18T18:28:10.440616 #11409]  INFO -- : Item added to cart: Our Band Could Be ...
+E, [2025-11-18T18:28:10.443416 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.443528 #11409]  INFO -- : Item initialized: The Dirty Little Secrets ...
+I, [2025-11-18T18:28:10.443579 #11409]  INFO -- : Item added to cart: The Dirty Little Secrets ...
+E, [2025-11-18T18:28:10.458896 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.459071 #11409]  INFO -- : Item initialized: The Requiem Red
+I, [2025-11-18T18:28:10.459178 #11409]  INFO -- : Item added to cart: The Requiem Red
+E, [2025-11-18T18:28:10.469978 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.470176 #11409]  INFO -- : Item initialized: The Black Maria
+I, [2025-11-18T18:28:10.470236 #11409]  INFO -- : Item added to cart: The Black Maria
+E, [2025-11-18T18:28:10.517922 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.518096 #11409]  INFO -- : Item initialized: Rip it Up and ...
+I, [2025-11-18T18:28:10.518171 #11409]  INFO -- : Item added to cart: Rip it Up and ...
+E, [2025-11-18T18:28:10.608406 #11409] ERROR -- : Error: Failed to download image: http://books.toscrape.com/catalogue/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg - 404 Not Found
+I, [2025-11-18T18:28:10.608497 #11409]  INFO -- : Item initialized: Tipping the Velvet
+I, [2025-11-18T18:28:10.608538 #11409]  INFO -- : Item added to cart: Tipping the Velvet
+I, [2025-11-18T18:28:10.608613 #11409]  INFO -- : Parsing finished. Total items: 20
+I, [2025-11-18T18:28:10.611703 #11409]  INFO -- : Saved to CSV: parsed_data.csv
